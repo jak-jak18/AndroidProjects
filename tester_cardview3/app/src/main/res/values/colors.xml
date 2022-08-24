@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!--Theme 2-->
+    <color name="theme2_primaryColor">#eeeeee</color>
+    <color name="theme2_primaryLightColor">#ffffff</color>
+    <color name="theme2_primaryDarkColor">#bcbcbc</color>
+    <color name="theme2_secondaryColor">#90caf9</color>
+    <color name="theme2_secondaryLightColor">#c3fdff</color>
+    <color name="theme2_secondaryDarkColor">#5d99c6</color>
+    <color name="theme2_primaryTextColor">#000000</color>
+    <color name="theme2_secondaryTextColor">#000000</color>
+</resources>

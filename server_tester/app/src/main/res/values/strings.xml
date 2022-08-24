@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">server_tester</string>
+    <string name="basic_map_demo_label">Basic Map</string>
+    <string name="button">Button</string>
+    <string name="edit_text">xx</string>
+
+    <string-array name="server_commands">
+        <item>List Menus</item>
+        <item>Get Menu Info</item>
+        <item>Get Item</item>
+        <item>Get Menu</item>
+        <item>Get Course</item>
+    </string-array>
+</resources>

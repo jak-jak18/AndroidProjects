@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Resume_v1</string>
+    <string name="mf_title">Justin Katzwhite\'s Resumé</string>
+    <string name="bi_title">Background Information</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>

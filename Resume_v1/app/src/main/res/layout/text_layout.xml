@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:id="@+id/text_layout"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/border"
+    android:textAlignment="center"
+    android:textIsSelectable="false"
+    android:paddingTop="16dp">
+</TextView>

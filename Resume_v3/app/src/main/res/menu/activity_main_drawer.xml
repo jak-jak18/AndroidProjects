@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@mipmap/home"
+            android:title="@string/Home" />
+        <item
+            android:id="@+id/background_information"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="@string/BI" />
+        <item
+            android:id="@+id/programming_languages"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/PL" />
+        <item
+            android:id="@+id/contact"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="@string/C" />
+    </group>
+</menu>

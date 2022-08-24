@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TesterMessenger</string>
+    <string name="title_auth">Auth</string>
+    <string name="title_send_message">Send Message</string>
+    <string name="title_receive_message">Receive message</string>
+
+    <!-- Message Fragment -->
+    <string name="upstream_message_id_hint">Message ID</string>
+    <string name="upstream_message_id_not_provided">Message Id cannot be empty</string>
+    <string name="upstream_ttl_hint">TTL</string>
+    <string name="upstream_send_text">Send</string>
+    <string name="upstream_sender_id">Sender Id:</string>
+    <string name="upstream_sender_id_hint">Choose a Sender Id:</string>
+    <string name="upstream_sender_id_not_select">Sender Id not selected</string>
+    <string name="upstream_sender_id_not_registered">The device needs to hold a registration token for this sender id, in order to send upstream messages to it.</string>
+
+    <!-- Auth Fragment-->
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="emailpassword_title_text">Email and Password</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="auth_failed">Authentication failed</string>
+
+</resources>

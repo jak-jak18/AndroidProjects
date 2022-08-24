@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight=".34"
+        android:layout_gravity="top|left"
+        android:id="@+id/top">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fadingEdge="horizontal|vertical"
+            android:layoutDirection="ltr"
+            android:nestedScrollingEnabled="false"
+            android:scrollbars="horizontal">
+
+            <HorizontalScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent">
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="300dp"
+        android:src="@drawable/artist"
+        android:scaleType="centerInside"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/button2"
+        android:layout_marginRight="46dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/imageView"/>
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="300dp"
+        android:src="@drawable/outer_shape"
+        android:scaleType="centerInside"
+        android:text="New Button"
+        android:id="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/imageView"
+        android:layout_toStartOf="@+id/imageView"
+        android:layout_marginRight="46dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button1"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/button"
+        android:layout_marginRight="46dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button2"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/button1"
+        android:layout_marginRight="46dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginTop="30dp" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="300dp"
+        android:src="@drawable/artist"
+        android:id="@+id/button3"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/button2"
+        android:layout_marginRight="46dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginTop="30dp" />
+
+               <!--<ImageButton
+                    android:layout_width="150dp"
+                    android:layout_height="300dp"
+                    android:id="@+id/imageView1"
+                    android:layout_alignParentEnd="false"
+                    android:src="@drawable/art2"
+                    android:scaleType="centerInside"
+                    android:layout_margin="20dp"
+                    android:nestedScrollingEnabled="false"
+                    android:adjustViewBounds="true"
+                    android:baselineAlignBottom="false"
+                   android:background="@drawable/art2" />-->
+
+     <!--<ImageView
+         android:layout_width="150dp"
+         android:layout_height="300dp"
+         android:id="@+id/imageView2"
+         android:layout_alignParentEnd="false"
+         android:src="@drawable/art4"
+         android:scaleType="centerInside"
+         android:layout_margin="20dp"
+         android:nestedScrollingEnabled="false"
+         android:adjustViewBounds="true" />-->
+</LinearLayout>
+            </HorizontalScrollView>
+
+            <ImageButton
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/imageButton8"
+                android:src="@drawable/down"
+                android:scaleType="center"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:clickable="true"
+                android:rotationY="180"
+                android:layout_alignParentStart="false"
+                android:onClick="down" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight=".66"
+        android:layout_gravity="left|bottom"
+        android:id="@+id/bottom">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/artist_info"
+                android:id="@+id/textView2"
+                android:layout_margin="0dp"
+                android:elegantTextHeight="false"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="false"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentBottom="false"
+                android:layout_alignWithParentIfMissing="false"
+                android:autoLink="web|email"
+                android:singleLine="false"
+                android:phoneNumber="false"
+                android:elevation="0dp"
+                android:clickable="false"
+                android:paddingTop="20dp"
+                android:layout_alignParentEnd="false" />
+
+            <ImageButton
+                android:layout_width="75dp"
+                android:layout_height="115dp"
+                android:id="@+id/imageButton6"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/pick"
+                android:scaleType="centerInside"
+                android:baselineAlignBottom="false"
+                android:clickable="false"
+                android:cropToPadding="false"
+                android:focusable="false"
+                android:soundEffectsEnabled="false"
+                android:elevation="0dp"
+                android:background="@drawable/border"
+                android:adjustViewBounds="false"
+                android:onClick="tester"
+                android:layout_margin="2dp" />
+
+            <ImageButton
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/imageButton7"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/up"
+                android:scaleType="center"
+                android:layout_alignParentStart="false"
+                android:contentDescription="Artist Info Expaned"
+                android:focusable="true"
+                android:clickable="true"
+                android:onClick="up" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

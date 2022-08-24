@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+        android:propertyName="scaleX"
+        android:duration="700"
+        android:valueTo="2"/>
+
+<!--doesn't work<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+android:propertyName="startColor"
+android:duration="700"
+android:valueTo="0xFF22EBFF"/>-->
