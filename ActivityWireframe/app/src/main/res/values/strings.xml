@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ActivityWireframe</string>
+    <string name="sample_fragment">Sample Fragment 1</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary"> #03a9f4</color>
+    <color name="colorPrimaryDark">#0288d1</color>
+    <color name="colorAccent">#40c4ff</color>
+
+    <color name="android">#8fc550</color>
+    <color name="python">#ffe873</color>
+    <color name="gae_red">#eb493b</color>
+    <color name="gae_blue">#4d8ef5</color>
+    <color name="html5">#f16529</color>
+
+    <color name="itemlist">#00bcd4</color>
+</resources>

@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">tester_cardview3</string>
+
+    <string-array name="titles">
+        <item>
+            Para 1
+        </item>
+        <item>
+            Para 2
+        </item>
+        <item>
+            Para 3
+        </item>
+    </string-array>
+
+    <string-array name="courses">
+        <item>Appetizer</item>
+        <item>Entree</item>
+        <item>Drinks</item>
+    </string-array>
+
+    <string-array name="item1">
+        <item>Yam</item>
+        <item>Orange potato</item>
+        <item>$0.99</item>
+    </string-array>
+
+    <string-array name="item2">
+        <item>Squash</item>
+        <item>Why do they call it this anyway?</item>
+        <item>$2.99</item>
+    </string-array>
+
+    <string-array name="item3">
+        <item>Asparagus</item>
+        <item>Floppy green spears of nutrion</item>
+        <item>$1.50</item>
+    </string-array>
+
+    <string-array name="content">
+        <item>
+            ThumbsUp Tutoring embraces the tech community by setting computer literacy as the objective.
+        Once this objective is accomplished, we teach the fundamentals of major industries such as web,
+        mobile, cloud and video games. If you have programming experience but want to learn more about
+        a specific industry, such as cloud computing, ThumbsUp is ready to start where you are and
+        bring you to the next level.
+        </item>
+        <item>
+            ThumbsUp offers two types of curriculum: structured and organic. The structured curriculum
+        is a preset order of topics that methodically teach the pupil the fundamentals of
+        programming. The organic curriculum is more pupil based and adapts to what the pupil
+        already knows and what technologies they are interested in learning.
+        </item>
+        <item>
+            There is a lot to learn about in the tech industry and software development. So much, in
+        fact, that it is more important to let the pupil’s innate desire be a compass for what
+        technologies are learned next. ThumbsUp strives to strengthen the pupil’s computer literacy
+        so that eventually they are able to take on the next challenge themselves.
+        </item>
+    </string-array>
+</resources>

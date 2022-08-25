@@ -1,0 +1,33 @@
+<!--
+    Copyright 2015 Google Inc. All rights reserved.
+    Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+    this file except in compliance with the License. You may obtain a copy of the
+    License at
+          http://www.apache.org/licenses/LICENSE-2.0
+    Unless required by applicable law or agreed to in writing, software distributed
+    under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+    CONDITIONS OF ANY KIND, either express or implied. See the License for the
+    specific language governing permissions and limitations under the License.
+-->
+<resources>
+    <string name="app_name">GCMNetworkManager Quickstart</string>
+
+    <string name="start_wifi_task">Start WiFi Task</string>
+    <string name="start_charging_task">Start Charging Task</string>
+    <string name="turn_on_wifi">Turn on WiFi</string>
+    <string name="start_periodic_task">Start Periodic Task</string>
+    <string name="stop_periodic_task">Stop Periodic Task</string>
+
+    <string name="description_wifi_task">
+        WiFi Task: This task will run as soon as your device is connected to WiFi.
+        Clicking the button below will disconnect your WiFi and schedule the task, re-connect your WiFi for the task to run.
+    </string>
+    <string name="description_charging_task">
+        Charging Task: This task will run as soon as your device is connected to power.
+        Disconnect your phone from USB Power and click the button below. Then plug your phone back in for the task to run.
+    </string>
+    <string name="description_periodic_task">
+        Periodic Task: This task will run every five seconds.
+        Use the buttons below to start and stop the periodic task.
+    </string>
+</resources>

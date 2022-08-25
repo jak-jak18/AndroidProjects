@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Resumé</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title">Justin Katzwhite\'s Resumé</string>
+    <string name="email">jkatzwhitew@gmail.com</string>
+
+    <string name="retrieve">Retrieve data from cloud </string>
+    <string name="clear">Clear SQLite Database</string>
+
+    <string name="Home">Home</string>
+    <string name="BI">Background Information</string>
+    <string name="PL">Programming Languages</string>
+    <string name="C">Contact</string>
+    <string name="S">SQL</string>
+
+    <string name="PL_textview">
+        This view is scrollable.
+
+        \n\nPress a view to insert app data into SQLite database. Long press a view to
+        retrieve data from cloud database and insert into SQLite database. Either way you will be able to
+        learn about my experience with its associated language(s).
+
+        \n\nTo delete database entries, select settings on the top right and select "Clear SQLite Database."
+        You can then retrieve current entries by pressing the view associated with the language.
+        </string>
+
+    <string name="contact">If you would like to contact me, please send an e-mail to the e-mail
+        address provided below. I should respond within 48 hours. Thank you.</string>
+
+    <string-array name="programming_languages">
+        <item>
+            I’ve been programming in Java and developing Android applications for over three
+            years.
+
+            \n\nI’ve developed android apps that use activities, fragments, layouts,
+            adapters, classes, client libraries designed to communicate with backend APIs,
+            LRUcache, SQLite and navigation drawers. These apps have used the camera and nfc
+            adapter in smartphones. I\'ve also used Firebase services such as crashlytics,
+            authentication and uploading images.</item>
+
+        <item>
+            I’ve designed backend APIs in Python that communicate with frontend client applications
+            using JSON. I\'m familiar with OAuth2.0.</item>
+
+        <item>
+            I’ve designed cloud applications in Python supported by Google App Engine (GAE). These
+            applications use the webapp2 framework and the Jinja template.
+
+            \n\nI’ve also created NoSQL databases that supply data to the web application and the
+            backend API. I’ve used cloud applications to transmit various data including text, image
+            urls and prices.</item>
+
+        <item>
+            I’ve created web applications using HTML5, JavaScript and CSS and have had these
+            applications interact with the cloud applications I’ve created.
+
+            \n\nBy interacting, data could be submitted to the cloud database and retrieved as well.</item>
+    </string-array>
+
+    <string name="background_information">
+        Currently, I\'m 30 years old. In 2006 I enrolled in the University of Pittsburgh School of
+        Engineering and in 2010 I received a B.S. in Electrical Engineering with a minor in
+        mathematics. From my pursuit of a B.S., I\'ve learned to work effectively in groups and have
+        become much more innovative.
+
+        \n\nDuring my stay, I contributed to research studying Power Quality (PQ) events in power
+        lines and power outlets.
+
+        \n\nAfterwards, I worked for over 4 years at the United States Patent and Trademark Office.
+        My daily activities included reviewing and prosecuting applications and arguing against and
+        negotiating with patent attorneys. I worked at the GS-11 level.
+
+        \n\nAround the age of 26 I developed a curiosity in computer programming, specifically mobile app design.
+        I spent a year learning and programming in multiple programming languages.
+        Since, I\'ve been able to create various examples utilizing technology essential to many different applications.
+    </string>
+
+</resources>
